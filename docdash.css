@@ -1,0 +1,164 @@
+/* Reset default margins and padding */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+#update-profile-form{
+    display: none;
+}
+#update-profile-button{
+    display: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: initial;
+    padding: 15px 0;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.doctor-dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+}
+
+.profile-info p strong {
+    display: inline-block;
+    width: 120px; /* Adjust as needed */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* ... (Previous CSS code) ... */
+
+.profile-info p {
+    margin-bottom: 10px;
+}
+
+.profile-info p strong {
+    display: inline-block;
+    width: 120px; /* Adjust as needed */
+}
+
+#update-profile-button {
+    display: block;
+    margin-top: 10px; /* Adjust the margin to your preference */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#update-profile-button:hover {
+    background-color: #555;
+}
+
+/* ... (Remaining CSS code) ... */
+/* ... (Previous CSS code) ... */
+
+#update-profile-button {
+    display: block;
+    margin-top: 10px; /* Adjust the margin to your preference */
+    margin-bottom: 20px; /* Add margin to create a gap */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#update-profile-button:hover {
+    background-color: #555;
+}
+
+/* ... (Remaining CSS code) ... */
+/* ... (Previous CSS code) ... */
+
+#update-profile-button {
+    display: block;
+    margin-top: 10px; /* Adjust the margin to your preference */
+    margin-bottom: 20px; /* Add margin to create a gap */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#update-profile-button:hover {
+    background-color: #555;
+}
+
+.patient-reports {
+    margin-top: 50px;
+
+}
+
+/* ... (Remaining CSS code) ... */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
